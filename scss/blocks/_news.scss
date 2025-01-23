@@ -1,0 +1,12 @@
+.news {
+  padding: 20px 0 0;
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    padding: 60px 0;
+    border-top: 1px solid $color-iron;
+  }
+}

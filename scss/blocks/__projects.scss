@@ -1,0 +1,64 @@
+.projects {
+  padding: 40px 0 0 20px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  &__list-visual {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  &__item-visual {
+    svg {
+      color: $color-mischka;
+    }
+    &--active {
+     svg {
+      color: $color-blue-charcoa;
+     }
+
+     .projects__button-text {
+      color: $color-blue-charcoa;
+     }
+    }
+  }
+
+  &__button-text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    color: $color-mischka;
+  }
+}

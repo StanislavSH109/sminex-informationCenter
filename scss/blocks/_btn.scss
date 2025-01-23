@@ -1,0 +1,22 @@
+.btn {
+  background-color: $color-ecru-white;
+  color: $color-blue-charcoa;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  padding: 8px 16px;
+  font-weight: 300;
+  border-radius: 60px;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+  &--active {
+    background-color: $color-blue-charcoa;
+    color: $color-white;
+  }
+}

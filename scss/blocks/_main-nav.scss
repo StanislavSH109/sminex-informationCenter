@@ -21,24 +21,21 @@
     }
   }
 
-  &__left {
-    text-transform: uppercase;
+  &__menu-inner {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 90px;
   }
+
 
   &__list {
-    display: grid;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 90px;
-    grid-template-columns: repeat(3, 1fr);
-    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     flex-wrap: wrap;
+    list-style: none;
     padding: 0;
     margin: 0;
-  }
-
-  &__item:not(:last-child) {
-    margin: 0 0 40px;
   }
 
   &__list-social {
