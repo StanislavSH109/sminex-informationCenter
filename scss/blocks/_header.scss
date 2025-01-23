@@ -39,6 +39,11 @@
     .header__phone-text {
       color: $color-white;
     }
+
+    .header__link:hover {
+      text-decoration: unset;
+      color: $color-ecru-white;
+    }
   }
 
   @include vp-1023 {
