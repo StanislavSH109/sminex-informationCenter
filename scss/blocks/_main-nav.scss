@@ -1,0 +1,16 @@
+.main-nav {
+  display: none;
+
+  &--menu {
+    display: block;
+  }
+
+  &__list {
+    list-style: none;    
+  }
+
+  &__list-social {
+    display: none;
+    list-style: none;
+  }
+}

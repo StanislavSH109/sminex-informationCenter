@@ -553,4 +553,18 @@ a {
   .header__phone-icon {
     display: flex;
   }
+}
+
+.main-nav {
+  display: none;
+}
+.main-nav--menu {
+  display: block;
+}
+.main-nav__list {
+  list-style: none;
+}
+.main-nav__list-social {
+  display: none;
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */
