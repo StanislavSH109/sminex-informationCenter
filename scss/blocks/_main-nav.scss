@@ -3,7 +3,7 @@
   width: 100%;
   position: fixed;
   width: 100%;
-  height: calc(100vh - 81px);
+  height: calc(100vh - 80px);
   top: 81px;
   left: 0;
   
@@ -11,7 +11,12 @@
   &--menu {
     display: flex;
     justify-content: center;
-    background-color: gray;
+    align-items: center;
+    background-color: $color-blue-charcoa;
+  }
+
+  &__left {
+    text-transform: uppercase;
   }
 
   &__list {
@@ -21,13 +26,41 @@
     gap: 90px;
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
   }
 
+  &__item:not(:last-child) {
+    margin: 0 0 40px;
+  }
+
   &__list-social {
     display: block;
+    position: absolute;
     list-style: none;
     padding: 0;
+    margin: 0;
+    gap: 60px;
+  }
+
+  &__item-link {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    font-weight: 300;
+    color: $color-white-50;
+    transition: .2s ease-out;
+
+    &:hover {
+      color: $color-white;
+      transition: .2s ease-in;
+    }
+
+    &:focus {
+      color: $color-white;
+      transition: .2s ease-in;
+      outline: none;
+    }
   }
 }
