@@ -1,16 +1,33 @@
 .main-nav {
   display: none;
+  width: 100%;
+  position: fixed;
+  width: 100%;
+  height: calc(100vh - 81px);
+  top: 81px;
+  left: 0;
+  
 
   &--menu {
-    display: block;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
   }
 
   &__list {
-    list-style: none;    
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 90px;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
 
   &__list-social {
-    display: none;
+    display: block;
     list-style: none;
+    padding: 0;
   }
 }
