@@ -19,4 +19,8 @@
     background-color: $color-blue-charcoa;
     color: $color-white;
   }
+
+  &--hidden {
+    display: none;
+  }
 }

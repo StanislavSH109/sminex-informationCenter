@@ -678,6 +678,9 @@ a {
   background-color: #1d252d;
   color: #ffffff;
 }
+.btn--hidden {
+  display: none;
+}
 
 .projects {
   padding: 40px 0 0 20px;
@@ -753,6 +756,7 @@ a {
 .card-news__wrapper {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 .card-news__title {
   font-size: 24px;
@@ -761,6 +765,8 @@ a {
   letter-spacing: 0.02em;
   color: #1d252d;
   text-align: left;
+  text-transform: uppercase;
+  margin: 0;
 }
 .card-news__period {
   font-size: 14px;
@@ -771,4 +777,8 @@ a {
 .card-news__text {
   width: 400px;
   text-align: left;
+  margin: 0;
+}
+.card-news__button {
+  width: 124px;
 }/*# sourceMappingURL=style.css.map */
