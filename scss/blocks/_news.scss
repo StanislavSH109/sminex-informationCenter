@@ -1,6 +1,10 @@
 .news {
   padding: 20px 0 0;
 
+  &--hidden {
+    display: none;
+  }
+
   &__list {
     list-style: none;
     padding: 0;

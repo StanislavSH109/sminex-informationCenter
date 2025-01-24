@@ -1,0 +1,19 @@
+.news-grid {
+  padding: 20px 0 0 ;
+  
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px solid $color-iron;
+    margin: 0;
+    padding: 40px 0 0;
+    list-style: none;
+    gap: 20px;
+    position: relative;
+  }
+
+  &__content {
+    position: absolute;
+    left: 0;
+  }
+}

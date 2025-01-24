@@ -370,7 +370,7 @@ a {
 .container {
   max-width: 1728px;
   margin: 0 auto;
-  padding: 0 160px;
+  padding: 0 180px;
 }
 
 .visually-hidden {
@@ -683,7 +683,7 @@ a {
 }
 
 .projects {
-  padding: 40px 0 0 20px;
+  padding: 40px 0 0 0;
 }
 .projects__wrapper {
   display: flex;
@@ -739,6 +739,9 @@ a {
 .news {
   padding: 20px 0 0;
 }
+.news--hidden {
+  display: none;
+}
 .news__list {
   list-style: none;
   padding: 0;
@@ -747,6 +750,24 @@ a {
 .news__item {
   padding: 60px 0 60px 50px;
   border-top: 1px solid #cbcccc;
+}
+
+.news-grid {
+  padding: 20px 0 0;
+}
+.news-grid__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px solid #cbcccc;
+  margin: 0;
+  padding: 40px 0 0;
+  list-style: none;
+  gap: 20px;
+  position: relative;
+}
+.news-grid__content {
+  position: absolute;
+  left: 0;
 }
 
 .card-news {
