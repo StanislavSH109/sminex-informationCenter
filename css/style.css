@@ -598,20 +598,21 @@ a {
   left: 0;
   overflow-y: auto;
 }
-.main-nav--menu {
+.main-nav--active {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100%;
+  justify-content: space-around;
+  padding: 180px 0 0;
   background-color: #1d252d;
 }
-.main-nav--menu .main-nav__icon:hover {
+.main-nav--active .main-nav__icon:hover {
   transform: scale(1.2);
   transition: 0.2s ease-in;
   color: #ffffff;
 }
 .main-nav__menu-inner {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 350px);
   gap: 90px;
 }
 .main-nav__list {
@@ -630,9 +631,9 @@ a {
   list-style: none;
   padding: 0;
   margin: 0;
-  gap: 60px;
-  top: 200px;
-  right: 50px;
+  gap: 54px;
+  top: 115px;
+  right: 52px;
 }
 .main-nav__icon {
   transform: scale(1);
@@ -640,12 +641,18 @@ a {
   color: rgba(255, 255, 255, 0.3137254902);
 }
 .main-nav__item-link {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.2s ease-out;
+}
+.main-nav__item-link--upper {
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0.02em;
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.5);
-  transition: 0.2s ease-out;
+  text-transform: uppercase;
 }
 .main-nav__item-link:hover {
   color: #ffffff;

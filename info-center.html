@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<header class="header">
+<header class="header header__burger">
   <div class="container">
     <div class="header__content">
       <div class="header__left-col">
@@ -38,28 +38,28 @@
           </svg>
         </a>
       </div>
-      <nav class="main-nav">
+      <nav class="main-nav main-nav--active">
         <div class="main-nav__menu-inner">
           <div class="main-nav-left">
             <ul class="main-nav__list">
               <li class="main-nav__item">
-                <a class="main-nav__item-link" href="#">Fine development</a>
+                <a class="main-nav__item-link main-nav__item-link--upper" href="#">Fine development</a>
               </li>
               <li class="main-nav__item">
-                <a class="main-nav__item-link" href="#">От проекта к реальности</a>
+                <a class="main-nav__item-link main-nav__item-link--upper" href="#">От проекта к реальности</a>
               </li>
               <li class="main-nav__item">
-                <a class="main-nav__item-link" href="#">Портфолио</a>
+                <a class="main-nav__item-link main-nav__item-link--upper" href="#">Портфолио</a>
               </li>
               <li class="main-nav__item">
-                <a class="main-nav__item-link" href="#">Служба комфорта</a>
+                <a class="main-nav__item-link main-nav__item-link--upper" href="#">Служба комфорта</a>
               </li>
             </ul>
           </div>
           <div class="main-nav-center">
             <ul class="main-nav__list">
               <li class="main-nav__item">
-                <a class="main-nav__item-link" href="#">Скоро в продаже</a>
+                <a class="main-nav__item-link main-nav__item-link--upper" href="#">Скоро в продаже</a>
               </li>
               <li class="main-nav__item">
                 <a class="main-nav__item-link" href="#">Фрунзенская набережная</a>
@@ -210,7 +210,7 @@
       </div>
     </div>
   </section>
-  <section class="news">
+  <section class="news news--hidden">
     <h2 class="visually-hidden">Новостная лента</h2>
     <div class="container">
       <ul class="news__list">
@@ -324,7 +324,7 @@
               <picture class="news-grid__picture">
                 <source media="(max-width: 767px)"  srcset="images/news/img-1-grid-mobile.jpg 1x, images/news/img-1-grid-mobile@2x.jpg 2x">
                 <source media="(max-width: 1023px)"  srcset="images/news/img-1-grid-tablet.jpg 1x, images/news/img-1-grid-tablet@2x.jpg 2x">
-                <img src="images/news/img-1-grid.jpg" srcset="images/news/img-1-grid.jpg 2x" alt=  width=  height=>
+                <img src="images/news/img-1-grid.jpg" srcset="images/news/img-1-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
               </picture>
             </div>
             <div class="news-grid__content">
@@ -340,7 +340,7 @@
               <picture class="news-grid__picture">
                 <source media="(max-width: 767px)"  srcset="images/news/img-2-grid-mobile.jpg 1x, images/news/img-2-grid-mobile@2x.jpg 2x">
                 <source media="(max-width: 1023px)"  srcset="images/news/img-2-grid-tablet.jpg 1x, images/news/img-2-grid-tablet@2x.jpg 2x">
-                <img src="images/news/img-2-grid.jpg" srcset="images/news/img-2-grid.jpg 2x" alt=  width=  height=>
+                <img src="images/news/img-2-grid.jpg" srcset="images/news/img-2-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
               </picture>
             </div>
             <div class="news-grid__content">
@@ -356,7 +356,7 @@
               <picture class="news-grid__picture">
                 <source media="(max-width: 767px)"  srcset="images/news/img-3-grid-mobile.jpg 1x, images/news/img-3-grid-mobile@2x.jpg 2x">
                 <source media="(max-width: 1023px)"  srcset="images/news/img-3-grid-tablet.jpg 1x, images/news/img-3-grid-tablet@2x.jpg 2x">
-                <img src="images/news/img-3-grid.jpg" srcset="images/news/img-3-grid.jpg 2x" alt=  width=  height=>
+                <img src="images/news/img-3-grid.jpg" srcset="images/news/img-3-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
               </picture>
             </div>
             <div class="news-grid__content">
@@ -372,7 +372,7 @@
               <picture class="news-grid__picture">
                 <source media="(max-width: 767px)"  srcset="images/news/img-4-grid-mobile.jpg 1x, images/news/img-4-grid-mobile@2x.jpg 2x">
                 <source media="(max-width: 1023px)"  srcset="images/news/img-4-grid-tablet.jpg 1x, images/news/img-4-grid-tablet@2x.jpg 2x">
-                <img src="images/news/img-4-grid.jpg" srcset="images/news/img-4-grid.jpg 2x" alt=  width=  height=>
+                <img src="images/news/img-4-grid.jpg" srcset="images/news/img-4-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
               </picture>
             </div>
             <div class="news-grid__content">
@@ -388,7 +388,7 @@
               <picture class="news-grid__picture">
                 <source media="(max-width: 767px)"  srcset="images/news/img-5-grid-mobile.jpg 1x, images/news/img-5-grid-mobile@2x.jpg 2x">
                 <source media="(max-width: 1023px)"  srcset="images/news/img-5-grid-tablet.jpg 1x, images/news/img-5-grid-tablet@2x.jpg 2x">
-                <img src="images/news/img-5-grid.jpg" srcset="images/news/img-5-grid.jpg 2x" alt=  width=  height=>
+                <img src="images/news/img-5-grid.jpg" srcset="images/news/img-5-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
               </picture>
             </div>
             <div class="news-grid__content">
@@ -404,7 +404,7 @@
               <picture class="news-grid__picture">
                 <source media="(max-width: 767px)"  srcset="images/news/img-6-grid-mobile.jpg 1x, images/news/img-6-grid-mobile@2x.jpg 2x">
                 <source media="(max-width: 1023px)"  srcset="images/news/img-6-grid-tablet.jpg 1x, images/news/img-6-grid-tablet@2x.jpg 2x">
-                <img src="images/news/img-6-grid.jpg" srcset="images/news/img-6-grid.jpg 2x" alt=  width=  height=>
+                <img src="images/news/img-6-grid.jpg" srcset="images/news/img-6-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
               </picture>
             </div>
             <div class="news-grid__content">
