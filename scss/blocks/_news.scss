@@ -3,10 +3,11 @@
 
   &__list {
     list-style: none;
+    padding: 0;
   }
 
   &__item {
     padding: 60px 0;
-    border-top: 1px solid $color-iron;
+    border-top: 1px solid $color-iron; 
   }
 }

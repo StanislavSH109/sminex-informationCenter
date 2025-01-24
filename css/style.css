@@ -738,6 +738,7 @@ a {
 }
 .news__list {
   list-style: none;
+  padding: 0;
 }
 .news__item {
   padding: 60px 0;
