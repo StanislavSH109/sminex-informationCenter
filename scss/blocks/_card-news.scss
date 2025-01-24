@@ -1,7 +1,12 @@
 .card-news {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 70px;
+  grid-template-columns: 340px 420px 420px;
+  gap: 75px;
+
+  &__picture {
+    width: 340px;
+    height: 220px;
+  }
 
   &__wrapper {
     display: flex;
@@ -28,7 +33,9 @@
   }
 
   &__text {
-    width: 400px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
     text-align: left;
     margin: 0;
   }
