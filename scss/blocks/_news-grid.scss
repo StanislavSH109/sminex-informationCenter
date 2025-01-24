@@ -1,5 +1,9 @@
 .news-grid {
-  padding: 20px 0 0 ;
+  padding: 20px 0 20px;
+
+  &--hidden {
+    display: none;
+  }
   
   &__list {
     display: grid;
@@ -9,7 +13,6 @@
     padding: 40px 0 0;
     list-style: none;
     gap: 20px;
-    // position: relative;
   }
 
   &__image img {
@@ -26,10 +29,13 @@
     bottom: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     height: 100%;
     padding: 40px;
     margin: 0;
+  }
+
+  &__inner {
+    margin: auto 0 0;
   }
 
 

@@ -748,12 +748,15 @@ a {
   margin: 0;
 }
 .news__item {
-  padding: 60px 0 60px 50px;
+  padding: 60px 0 60px 30px;
   border-top: 1px solid #cbcccc;
 }
 
 .news-grid {
-  padding: 20px 0 0;
+  padding: 20px 0 20px;
+}
+.news-grid--hidden {
+  display: none;
 }
 .news-grid__list {
   display: grid;
@@ -776,10 +779,12 @@ a {
   bottom: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 100%;
   padding: 40px;
   margin: 0;
+}
+.news-grid__inner {
+  margin: auto 0 0;
 }
 .news-grid__btn {
   width: 124px;
