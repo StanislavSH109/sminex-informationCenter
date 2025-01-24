@@ -14,6 +14,14 @@
     line-height: 28px;
     letter-spacing: 0.02em;
     color: $color-blue-charcoa;
+    text-align: left;
+  }
+
+  &__period {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: $color-mischka;
   }
 
   &__text {

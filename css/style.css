@@ -760,6 +760,13 @@ a {
   line-height: 28px;
   letter-spacing: 0.02em;
   color: #1d252d;
+  text-align: left;
+}
+.card-news__period {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #a7a8aa;
 }
 .card-news__text {
   width: 400px;
