@@ -754,6 +754,13 @@ a {
   display: flex;
   flex-direction: column;
 }
+.card-news__title {
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #1d252d;
+}
 .card-news__text {
   width: 400px;
   text-align: left;
