@@ -1,7 +1,9 @@
 .card-news {
   display: grid;
-  grid-template-columns: 340px 420px 420px;
-  border-top: 1px solid $color-iron; 
+  grid-template-columns: 340px 450px 420px;
+  border-top: 1px solid $color-iron;
+  padding: 60px 0 60px 28px;
+  gap: 60px;
 
   &__picture-grid {
     display: none;
@@ -11,7 +13,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border-top: unset;
-
+    padding: unset;
+    gap: unset;
 
     .card-news__picture {
       display: none;
@@ -56,6 +59,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 0 0 0 40px;
   }
 
   &__title {

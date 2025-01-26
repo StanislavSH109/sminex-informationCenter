@@ -759,8 +759,10 @@ a {
 
 .card-news {
   display: grid;
-  grid-template-columns: 340px 420px 420px;
+  grid-template-columns: 340px 450px 420px;
   border-top: 1px solid #cbcccc;
+  padding: 60px 0 60px 28px;
+  gap: 60px;
 }
 .card-news__picture-grid {
   display: none;
@@ -769,6 +771,8 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   border-top: unset;
+  padding: unset;
+  gap: unset;
 }
 .card-news--grid .card-news__picture {
   display: none;
@@ -804,6 +808,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 0 0 0 40px;
 }
 .card-news__title {
   font-size: 24px;
