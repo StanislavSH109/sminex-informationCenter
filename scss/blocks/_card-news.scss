@@ -1,8 +1,6 @@
 .card-news {
   display: grid;
   grid-template-columns: 340px 420px 420px;
-  gap: 75px;
-  padding: 60px 0 60px 30px;
   border-top: 1px solid $color-iron; 
 
   &__picture-grid {
@@ -12,7 +10,7 @@
   &--grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    border-top: unset;
 
 
     .card-news__picture {
@@ -21,7 +19,6 @@
 
     .card-news__picture-grid, img {
       display: block;
-      position: relative;
       width: 674px;
       height: 360px;
 
@@ -35,9 +32,17 @@
       position: absolute;
       width: 673px;
       padding: 40px;
+      flex-direction: column-reverse;
+      height: 360px;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
     }
 
     .card-news__title {
+      color: $color-white;
+    }
+
+    .card-news__period {
+      margin-top: auto;
       color: $color-white;
     }
   }

@@ -7,8 +7,13 @@
     margin: 0;
 
     &--grid {
+      padding: 40px 0 0;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      border-top: 1px solid $color-iron;
+      gap: 20px;
     }
+
+    
   }
 }
