@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<header class="header header__burger">
+<header class="header">
   <div class="container">
     <div class="header__content">
       <div class="header__left-col">
@@ -38,7 +38,7 @@
           </svg>
         </a>
       </div>
-      <nav class="main-nav main-nav--active">
+      <nav class="main-nav">
         <div class="main-nav__menu-inner">
           <div class="main-nav-left">
             <ul class="main-nav__list">
@@ -135,10 +135,10 @@
   </div>
 </header>
 <main>
-  <section class="projects">
-    <h1 class="visually-hidden">Информационный центр</h1>
+  <section class="news">
+    <h2 class="visually-hidden">Новостная лента</h2>
     <div class="container">
-      <div class="projects__wrapper">
+      <div class="projects">
         <ul class="projects__list">
           <li class="projects__item">
             <button class="projects__btn btn btn--active" type="button">Все</button>
@@ -208,18 +208,18 @@
           </li>
         </ul>
       </div>
-    </div>
-  </section>
-  <section class="news news--hidden">
-    <h2 class="visually-hidden">Новостная лента</h2>
-    <div class="container">
-      <ul class="news__list">
+      <ul class="news__list news__list--grid">
         <li class="news__item">
-          <div class="card-news">
+          <div class="card-news card-news--grid">
             <picture class="card-news__picture">
               <source media="(max-width: 767px)"  srcset="images/news/img-1-list-mobile.jpg 1x, images/news/img-1-list-mobile@2x.jpg 2x">
               <source media="(max-width: 1023px)"  srcset="images/news/img-1-list-tablet.jpg 1x, images/news/img-1-list-tablet@2x.jpg 2x">
               <img src="images/news/img-1-list.jpg" srcset="images/news/img-1-list@2x.jpg 2x" alt="фотография новости"  width="340"  height="220">
+            </picture>
+            <picture class="card-news__picture-grid">
+              <source media="(max-width: 767px)"  srcset="images/news/img-1-grid-mobile.jpg 1x, images/news/img-1-grid-mobile@2x.jpg 2x">
+              <source media="(max-width: 1023px)"  srcset="images/news/img-1-grid-tablet.jpg 1x, images/news/img-1-grid-tablet@2x.jpg 2x">
+              <img src="images/news/img-1-grid.jpg" srcset="images/news/img-1-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
             </picture>
             <div class="card-news__wrapper">
               <h2 class="card-news__title">Sminex приступил к&nbsp;фасадным работам в&nbsp;клубном дому &laquo;Чистые пруды&raquo;</h2>
@@ -230,11 +230,16 @@
           </div>
         </li>
         <li class="news__item">
-          <div class="card-news">
+          <div class="card-news card-news--grid">
             <picture class="card-news__picture">
               <source media="(max-width: 767px)"  srcset="images/news/img-2-list-mobile.jpg 1x, images/news/img-1-list-mobile@2x.jpg 2x">
               <source media="(max-width: 1023px)"  srcset="images/news/img-2-list-tablet.jpg 1x, images/news/img-2-list-tablet@2x.jpg 2x">
               <img src="images/news/img-2-list.jpg" srcset="images/news/img-2-list@2x.jpg 2x" alt="фотография новости"  width="340"  height="220">
+            </picture>
+            <picture class="card-news__picture-grid">
+              <source media="(max-width: 767px)"  srcset="images/news/img-2-grid-mobile.jpg 1x, images/news/img-2-grid-mobile@2x.jpg 2x">
+              <source media="(max-width: 1023px)"  srcset="images/news/img-2-grid-tablet.jpg 1x, images/news/img-2-grid-tablet@2x.jpg 2x">
+              <img src="images/news/img-2-grid.jpg" srcset="images/news/img-2-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
             </picture>
             <div class="card-news__wrapper">
               <h3 class="card-news__title">&laquo;Дзен&raquo;. Главные места и&nbsp;секреты Чистых прудов</h3>
@@ -249,11 +254,16 @@
           </div>
         </li>
         <li class="news__item">
-          <div class="card-news">
+          <div class="card-news card-news--grid">
             <picture class="card-news__picture">
               <source media="(max-width: 767px)"  srcset="images/news/img-3-list-mobile.jpg 1x, images/news/img-1-list-mobile@2x.jpg 2x">
               <source media="(max-width: 1023px)"  srcset="images/news/img-3-list-tablet.jpg 1x, images/news/img-3-list-tablet@2x.jpg 2x">
               <img src="images/news/img-3-list.jpg" srcset="images/news/img-3-list@2x.jpg 2x" alt="фотография новости"  width="340"  height="220">
+            </picture>
+            <picture class="card-news__picture-grid">
+              <source media="(max-width: 767px)"  srcset="images/news/img-3-grid-mobile.jpg 1x, images/news/img-3-grid-mobile@2x.jpg 2x">
+              <source media="(max-width: 1023px)"  srcset="images/news/img-3-grid-tablet.jpg 1x, images/news/img-3-grid-tablet@2x.jpg 2x">
+              <img src="images/news/img-3-grid.jpg" srcset="images/news/img-3-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
             </picture>
             <div class="card-news__wrapper">
               <h3 class="card-news__title">Высокий спрос привёл к&nbsp;росту цен на&nbsp;элитную недвижимость Остоженки</h3>
@@ -264,11 +274,16 @@
           </div>
         </li>
         <li class="news__item">
-          <div class="card-news">
+          <div class="card-news card-news--grid">
             <picture class="card-news__picture">
               <source media="(max-width: 767px)"  srcset="images/news/img-4-list-mobile.jpg 1x, images/news/img-1-list-mobile@2x.jpg 2x">
               <source media="(max-width: 1023px)"  srcset="images/news/img-4-list-tablet.jpg 1x, images/news/img-1-list-tablet@2x.jpg 2x">
               <img src="images/news/img-4-list.jpg" srcset="images/news/img-4-list@2x.jpg 2x" alt="фотография новости"  width="340"  height="220">
+            </picture>
+            <picture class="card-news__picture-grid">
+              <source media="(max-width: 767px)"  srcset="images/news/img-4-grid-mobile.jpg 1x, images/news/img-4-grid-mobile@2x.jpg 2x">
+              <source media="(max-width: 1023px)"  srcset="images/news/img-4-grid-tablet.jpg 1x, images/news/img-4-grid-tablet@2x.jpg 2x">
+              <img src="images/news/img-4-grid.jpg" srcset="images/news/img-4-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
             </picture>
             <div class="card-news__wrapper">
               <h3 class="card-news__title">Sminex создаёт самый близкий к&nbsp;Кремлю всесезонный двор-сад</h3>
@@ -279,11 +294,16 @@
           </div>
         </li>
         <li class="news__item">
-          <div class="card-news">
+          <div class="card-news card-news--grid">
             <picture class="card-news__picture">
               <source media="(max-width: 767px)"  srcset="images/news/img-5-list-mobile.jpg 1x, images/news/img-5-list-mobile@2x.jpg 2x">
               <source media="(max-width: 1023px)"  srcset="images/news/img-5-list-tablet.jpg 1x, images/news/img-5-list-tablet@2x.jpg 2x">
               <img src="images/news/img-5-list.jpg" srcset="images/news/img-5-list@2x.jpg 2x" alt="фотография новости"  width="340"  height="220">
+            </picture>
+            <picture class="card-news__picture-grid">
+              <source media="(max-width: 767px)"  srcset="images/news/img-5-grid-mobile.jpg 1x, images/news/img-5-grid-mobile@2x.jpg 2x">
+              <source media="(max-width: 1023px)"  srcset="images/news/img-5-grid-tablet.jpg 1x, images/news/img-5-grid-tablet@2x.jpg 2x">
+              <img src="images/news/img-5-grid.jpg" srcset="images/news/img-5-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
             </picture>
             <div class="card-news__wrapper">
               <h3 class="card-news__title">Видео. Ювелирное воссоздание барельефов &laquo;Ильинки 3/8&raquo;</h3>
@@ -294,7 +314,7 @@
           </div>
         </li>
         <li class="news__item">
-          <div class="card-news">
+          <div class="card-news card-news--grid">
             <picture class="card-news__picture">
               <source media="(max-width: 767px)"  srcset="images/news/img-6-list-mobile.jpg 1x, images/news/img-6-list-mobile@2x.jpg 2x">
               <source media="(max-width: 1023px)"  srcset="images/news/img-6-list-tablet.jpg 1x, images/news/img-6-list-mobile@2x.jpg 2x">
@@ -315,13 +335,13 @@
       </ul>
     </div>
   </section>
-  <section class="news-grid news-grid--hidden">
+  <!-- <section class="news-grid news-grid--hidden">
     <div class="container">
       <div class="news-grid__wrapper">
         <ul class="news-grid__list">
           <li class="news-grid__item">
             <div class="news-grid__image">
-              <picture class="news-grid__picture">
+              <picture class="card-news__picture-grid">
                 <source media="(max-width: 767px)"  srcset="images/news/img-1-grid-mobile.jpg 1x, images/news/img-1-grid-mobile@2x.jpg 2x">
                 <source media="(max-width: 1023px)"  srcset="images/news/img-1-grid-tablet.jpg 1x, images/news/img-1-grid-tablet@2x.jpg 2x">
                 <img src="images/news/img-1-grid.jpg" srcset="images/news/img-1-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
@@ -337,7 +357,7 @@
           </li>
           <li class="news-grid__item">
             <div class="news-grid__image">
-              <picture class="news-grid__picture">
+              <picture class="card-news__picture-grid">
                 <source media="(max-width: 767px)"  srcset="images/news/img-2-grid-mobile.jpg 1x, images/news/img-2-grid-mobile@2x.jpg 2x">
                 <source media="(max-width: 1023px)"  srcset="images/news/img-2-grid-tablet.jpg 1x, images/news/img-2-grid-tablet@2x.jpg 2x">
                 <img src="images/news/img-2-grid.jpg" srcset="images/news/img-2-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
@@ -353,7 +373,7 @@
           </li>
           <li class="news-grid__item">
             <div class="news-grid__image">
-              <picture class="news-grid__picture">
+              <picture class="card-news__picture-grid">
                 <source media="(max-width: 767px)"  srcset="images/news/img-3-grid-mobile.jpg 1x, images/news/img-3-grid-mobile@2x.jpg 2x">
                 <source media="(max-width: 1023px)"  srcset="images/news/img-3-grid-tablet.jpg 1x, images/news/img-3-grid-tablet@2x.jpg 2x">
                 <img src="images/news/img-3-grid.jpg" srcset="images/news/img-3-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
@@ -369,7 +389,7 @@
           </li>
           <li class="news-grid__item">
             <div class="news-grid__image">
-              <picture class="news-grid__picture">
+              <picture class="card-news__picture-grid">
                 <source media="(max-width: 767px)"  srcset="images/news/img-4-grid-mobile.jpg 1x, images/news/img-4-grid-mobile@2x.jpg 2x">
                 <source media="(max-width: 1023px)"  srcset="images/news/img-4-grid-tablet.jpg 1x, images/news/img-4-grid-tablet@2x.jpg 2x">
                 <img src="images/news/img-4-grid.jpg" srcset="images/news/img-4-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
@@ -385,7 +405,7 @@
           </li>
           <li class="news-grid__item">
             <div class="news-grid__image">
-              <picture class="news-grid__picture">
+              <picture class="card-news__picture-grid">
                 <source media="(max-width: 767px)"  srcset="images/news/img-5-grid-mobile.jpg 1x, images/news/img-5-grid-mobile@2x.jpg 2x">
                 <source media="(max-width: 1023px)"  srcset="images/news/img-5-grid-tablet.jpg 1x, images/news/img-5-grid-tablet@2x.jpg 2x">
                 <img src="images/news/img-5-grid.jpg" srcset="images/news/img-5-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
@@ -401,7 +421,7 @@
           </li>
           <li class="news-grid__item">
             <div class="news-grid__image">
-              <picture class="news-grid__picture">
+              <picture class="card-news__picture-grid">
                 <source media="(max-width: 767px)"  srcset="images/news/img-6-grid-mobile.jpg 1x, images/news/img-6-grid-mobile@2x.jpg 2x">
                 <source media="(max-width: 1023px)"  srcset="images/news/img-6-grid-tablet.jpg 1x, images/news/img-6-grid-tablet@2x.jpg 2x">
                 <img src="images/news/img-6-grid.jpg" srcset="images/news/img-6-grid.jpg 2x" alt="фотография для новости"  width="340"  height="220">
@@ -418,7 +438,7 @@
         </ul>
       </div>
     </div>
-  </section>
+  </section> -->
 </main>
 </body>
 
