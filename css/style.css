@@ -755,6 +755,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
+    position: relative;
   }
   .main-nav__choose-link {
     display: flex;
@@ -771,14 +772,13 @@ a {
   .main-nav__choose-icon {
     width: 33px;
     height: 40px;
-    position: relative;
   }
-  .main-nav__choose-icon::before {
-    content: "";
-    display: block;
+  .main-nav__choose-icon-arrow {
     width: 15px;
-    height: 8px;
-    background-image: url("/images/sprite/icon-choose-arrow.svg");
+    height: 7px;
+    right: 8%;
+    bottom: 20%;
+    position: absolute;
   }
 }
 
