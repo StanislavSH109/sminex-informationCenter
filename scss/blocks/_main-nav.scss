@@ -157,4 +157,26 @@
       outline: none;
     }
   }
+
+  &__choose {
+    display: none;
+
+    @include vp-767 {
+      display: flex;
+
+      &-link {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: $color-white;
+      }
+
+      &-icon {
+        width: 33px;
+        height: 40px;
+      }
+    }
+    
+  }
 }

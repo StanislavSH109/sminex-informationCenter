@@ -746,6 +746,25 @@ a {
   transition: 0.2s ease-in;
   outline: none;
 }
+.main-nav__choose {
+  display: none;
+}
+@media (max-width: 767px) {
+  .main-nav__choose {
+    display: flex;
+  }
+  .main-nav__choose-link {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .main-nav__choose-icon {
+    width: 33px;
+    height: 40px;
+  }
+}
 
 .btn {
   background-color: #d6d2c4;
