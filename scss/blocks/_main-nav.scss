@@ -28,22 +28,47 @@
     @include vp-1023 {
       padding: 83px 0 0;
     }
+
+    @include vp-767 {
+      justify-content: unset;
+      padding: 42px 20px 0;
+    }
   }
 
   &__menu-inner {
     display: grid;
     grid-template-columns: repeat(3, 350px);
     gap: 90px;
+    
+    @media (max-width: 1250px) {
+      gap: 40px;
+    }
+
+    @media (max-width: 1160px) {
+      gap: unset;
+    }
 
     @include vp-1023 {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(3, 1fr);
       gap: 80px 65px;
     }
+
+    @include vp-767 {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
   }
 
   &-center {
-    grid-row: span 1 / 3;
+    @include vp-1023 {
+      grid-row: span 1 / 3;
+    }
+
+    @include vp-767 {
+      grid-row: unset;
+    }
   }
 
 
@@ -58,6 +83,10 @@
 
     @include vp-1023 {
       gap: 35px;
+    }
+
+    @include vp-767 {
+      gap: 20px;
     }
   }
 
@@ -109,6 +138,11 @@
       @include vp-1023 {
         font-size: 20px;
         line-height: 24px;
+      }
+
+      @include vp-767 {
+        font-size: 16px;
+        line-height: 20px;
       }
     }
 

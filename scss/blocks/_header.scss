@@ -9,6 +9,10 @@
   background-color: $color-white;
   z-index: 10;
 
+  @include vp-1023 {
+    padding: 10px 0 10px;
+  }
+
   &__burger {
     background-color: $color-blue-charcoa;
     border-bottom: 1px solid $color-rhino;
@@ -26,6 +30,10 @@
       filter: invert(1);
       width: 40px;
       height: 40px;
+
+      @include vp-1023 {
+        width: 30px;
+      }
     }
 
     .header__page {
@@ -45,11 +53,6 @@
       color: $color-ecru-white;
     }
   }
-
-  @include vp-1023 {
-    padding: 17px 0 16px;
-  }
-
 
   &__content {
     position: relative;
@@ -82,13 +85,11 @@
     cursor: pointer;
 
     @include vp-1023 {
-      width: 47px;
-      height: 20px;
+      width: unset;
+      height: unset;
+      margin: 0 86px 0 0;
     }
 
-    @include vp-767 {
-      margin: 0 70px 0 0;
-    }
   }
 
   &__menu-icon {
@@ -194,6 +195,7 @@
     height: 24px;
     width: 24px;
     display: none;
+    filter: invert(1);
 
     @include vp-1023 {
       display: flex;
