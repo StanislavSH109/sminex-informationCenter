@@ -24,6 +24,10 @@
       transition: .2s ease-in;
       color: $color-white;
     }
+
+    @include vp-1023 {
+      padding: 83px 0 0;
+    }
   }
 
   &__menu-inner {
@@ -34,7 +38,7 @@
     @include vp-1023 {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(3, 1fr);
-      gap: 60px;
+      gap: 80px 65px;
     }
   }
 
@@ -52,6 +56,9 @@
     padding: 0;
     margin: 0;
 
+    @include vp-1023 {
+      gap: 35px;
+    }
   }
 
 
@@ -65,6 +72,12 @@
     gap: 54px;
     top: 115px;
     right: 52px;
+
+    @include vp-1023 {
+      gap: 44px;
+      top: 103px;
+      right: 25px;
+    }
   }
 
   &__icon {
