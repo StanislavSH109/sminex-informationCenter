@@ -29,6 +29,12 @@
   &__burger {
     background-color: $color-blue-charcoa;
     border-bottom: 1px solid $color-rhino;
+    
+    @include vp-767 {
+      .container {
+        padding: 10px 20px 10px 20px;
+      }
+    }
 
     .header__logo {
       filter: invert(1);

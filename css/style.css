@@ -436,6 +436,11 @@ a {
   background-color: #1d252d;
   border-bottom: 1px solid #444D56;
 }
+@media (max-width: 767px) {
+  .header__burger .container {
+    padding: 10px 20px 10px 20px;
+  }
+}
 .header__burger .header__logo {
   filter: invert(1);
 }
@@ -946,11 +951,6 @@ a {
     gap: 20px;
   }
 }
-@media (max-width: 767px) {
-  .news__list:nth-child(3) .card-news {
-    padding: 110px 0 0;
-  }
-}
 .news__list--grid {
   padding: 40px 0 0;
   display: grid;
@@ -1089,8 +1089,9 @@ a {
 }
 @media (max-width: 767px) {
   .card-news__title {
-    font-size: 20px;
+    font-size: 19px;
     line-height: 24px;
+    margin: 0 0 15px;
   }
 }
 .card-news__period {
