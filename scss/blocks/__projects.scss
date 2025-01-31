@@ -78,8 +78,21 @@
     }
   }
 
+  &__button-mobile {
+    width: 103px;
+    height: 32px;
+  }
+
   &__icons {
     display: flex;
     gap: 20px;
+
+  }
+
+  &__icon {
+    @include vp-767 {
+      width: 20px;
+      height: 20px;
+    }
   }
 }
