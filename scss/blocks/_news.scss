@@ -1,9 +1,5 @@
 .news {
-  padding: 20px 130px 0;
-
-  @media (max-width: 1560px) {
-    padding: 0;
-  }
+  padding: 20px 0 0;
   &__list {
     list-style: none;
     padding: 0;
@@ -16,9 +12,9 @@
       border-top: 1px solid $color-iron;
       gap: 20px;
 
-      @media (max-width: 1560px) {
-        grid-template-columns: auto;
-      }
+      // @media (max-width: 1560px) {
+      //   grid-template-columns: auto;
+      // }
       
       @include vp-1023 {
         display: flex;
