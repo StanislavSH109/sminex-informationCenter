@@ -1030,7 +1030,7 @@ a {
     width: 100%;
     justify-content: unset;
     padding: 20px;
-    height: 200px;
+    height: unset;
   }
 }
 .card-news--grid .card-news__picture-grid, .card-news--grid img {
@@ -1057,7 +1057,6 @@ a {
 .card-news--grid .card-news__period {
   font-size: 12px;
   line-height: 16px;
-  margin-top: auto;
   color: #ffffff;
 }
 .card-news__picture {
@@ -1146,5 +1145,6 @@ a {
 @media (max-width: 767px) {
   .card-news__button {
     width: unset;
+    margin: 0 0 50px;
   }
 }/*# sourceMappingURL=style.css.map */

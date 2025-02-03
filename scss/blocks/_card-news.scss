@@ -57,7 +57,8 @@
         width: 100%;
         justify-content: unset;
         padding: 20px;
-        height: 200px;
+        height: unset;
+        // height: 200px;
       }
     }
 
@@ -88,7 +89,6 @@
     .card-news__period {
       font-size: 12px;
       line-height: 16px;
-      margin-top: auto;
       color: $color-white;
     }
   }
@@ -177,6 +177,7 @@
 
     @include vp-767 {
       width: unset;
+      margin: 0 0 50px;
     }
   }
 }
