@@ -1016,7 +1016,7 @@ a {
   padding: 40px;
   flex-direction: column-reverse;
   justify-content: space-between;
-  height: 360px;
+  min-height: 360px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
   width: 100%;
 }
@@ -1030,7 +1030,7 @@ a {
     width: 100%;
     justify-content: unset;
     padding: 20px;
-    height: unset;
+    min-height: unset;
   }
 }
 .card-news--grid .card-news__picture-grid, .card-news--grid img {
